@@ -4,6 +4,7 @@ import React from "react";
 export const AuthLayout = ({children, title=''}) => {
   return (
     <Grid
+      
       container
       spacing={0} // cero para que no haya espacio entre ls hijos
       direction="column" //implicitamente es como ponerle flexbox
